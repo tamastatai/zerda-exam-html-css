@@ -81,7 +81,7 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 
-It's 40 px, because their positions are absolute, and the .foo is 20 px from the body + the .bar is 20 px from the foo.
+It's 40 px, because their positions are absolute; the body has no padding or margin, and the .foo is 20 px from the body + the .bar is 20 px from the foo (top-left).
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 
