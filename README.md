@@ -80,16 +80,21 @@ Add your answer to this readme file, commit your changes to this repository.
   </body>
 </html>
 ```
-#### Your answer: [2p]
 
+It's 40 px, because their positions are absolute, and the .foo is 20 px from the body + the .bar is 20 px from the foo.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
+
 Add your answer to this readme file, commit your changes to this repository.
 
-
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
-#### Your answer: [2p]
 
+Every element on  website is a box, and the display property tells them how to behave. When using display:block it generates an inline element box. Block elements are usually conatiners, and don't stay inline. Block is a basic value, so a lot of elements are set to this by default. Without setting the width they take up all the space horizontally.
+Display:inline is the default value for all elements. Inline elements accept margin and padding, but ignore width and height.
+Display:inline-block is almost the same as display:inline, but you can set width and height to these elements.
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
-#### Your answer: [2p]
+
+Article tags stand for self-contained, individual content. These can be blog/forum posts, articles, entries, etc. An article element should be indentified, and able to stand on its own, independently from other elements.
+The section tag defines sections of a document. Like article tags, sections should be indentified  too.
+
