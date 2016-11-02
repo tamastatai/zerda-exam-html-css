@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+h1, p{
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+table{
+  font-family: 'Arial';
+  font-size: 14px;
+}
+
+p{
+  font-size: 14px;
+}
+
+.wrapper{
+  width: 540px;
+  height: 200px;
+}
+
+img{
+  width: 180px;
+  height: 180px;
+  float: left;
+  border-right: 10px solid #556392;
+  margin-right: 20px;
+}
+
+.john{
+  background-color: #FFFFF1;
+  height: 180px;
+  width: 540px;
+}
+
+.jane{
+  background-color: #ACB8DF;
+  height: 180px;
+  width: 540px;
+}
+
+.text{
+  padding: 10px;
+  line-height: 1em;
+}
+
+
+table{
+  text-align: left;
+}
+
+td{
+  padding-left: 50px;
+}
+
+.wp1,
+.wp2{
+  background-image: url(edit-icon.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-right: 15px;
+}
